@@ -1,64 +1,46 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Mayora Company Profile Website (Remake)
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Overview 
 
-## About Laravel
+<p align="justify">The first time I learned about Laravel framework, I wanted to create a web app with bigger scale than just a landing page clone. Then comes the idea of creating a company profile web app with an extra feature such as Content Management System (CMS) and admin Dashboard. I decided to create the clone web app with my own design & style. Even though there are lots of room for improvement to do, I wanted to showcase the web app and hope to improve the app overtime in the future. Feel free to clone this repo for any kind of use, and DM me for any question or discussion. Thank you 💖</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Features 
+- <b>Company Profile</b>: Contains every publicly shared information about 'Mayora'.
+- <b>Dashboard CMS</b>:
+    - Add Product: Add a new product to be shown at product page.
+    - View Products: View all the existing products recorded in the database.
+    - Update Product: Edit the information of existing product.
+    - Delete Product: Delete an existing product from database.
+    - Create Account: Create a whole new account as an admin.
+    - Update Account: Edit/Delete an existing account as an admin.
+- <b>Real-time Products</b>: Display the products in product page based on recorded data in database.
+- <b>Login</b>: Log into the dashboard CMS as an admin.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Technologies Used
+- HTML (Blade), CSS, JavaScript are used for the frontend needs
+- Bootstrap & SweetAlert (Tailwind) are used for extra frontend needs
+- Laravel framework (PHP) is used for the backend needs
+- MySQL database is used for the database needs
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Preview 
+![image](https://github.com/user-attachments/assets/bbafe48e-2219-437f-a75a-10abce9c1211) <br> <br>
+![image](https://github.com/user-attachments/assets/7a517385-098a-4e05-ac49-1d05ed6e60c4) <br> <br>
+![image](https://github.com/user-attachments/assets/fb1893f5-294b-4f13-b0d6-258c19b77b6a) <br> <br>
+![image](https://github.com/user-attachments/assets/b8d2446a-206c-4737-974e-e46e8ed72656)
 
-## Learning Laravel
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/Mayora_Company_Web_Remake.git
+   ```
+2. Import the SQL text file to your Phpmyadmin
+3. Open your XAMPP -> Turn on Apache and MySQL
+4. Run the application by running ```php artisan server``` in the terminal
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+  
+## Thank You ❤❤
+Thank you for visiting Mayora Company Profile Website (Remake)! 😊
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+By Winsen Wiradinata. <br> <br>
+<a href="https://www.linkedin.com/in/winsen-wiradinata/"><img src="https://img.shields.io/badge/-Winsen%20Wiradinata-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
+<a href="mailto:winsenwiradinata@gmail.com"><img src="https://img.shields.io/badge/-winsenwiradinata@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
