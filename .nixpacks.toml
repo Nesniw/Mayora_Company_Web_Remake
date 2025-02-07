@@ -1,0 +1,2 @@
+[build]
+pkgs = ["php81", "composer", "nodejs", "coreutils"]
