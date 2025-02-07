@@ -1,0 +1,8 @@
+[build]
+pkgs = ["php82", "composer", "nodejs", "coreutils"]
+
+[phases.setup]
+nixPkgs = ["php82", "composer", "nodejs", "mysql-client", "coreutils"]
+
+[phases.build]
+cmds = ["composer install --no-dev --optimize-autoloader"]
